@@ -60,6 +60,10 @@ article p {
   text-align: center;
 }
 
+article a:visited {
+  color:black;
+}
+
 .articleterminal {
 background-color: rgb(38, 116, 95);
 }
