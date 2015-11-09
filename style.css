@@ -1,87 +1,151 @@
 header {
   background-color: black;
-  color:  white;
+  color: white;
   height: 20em;
 }
-
 header a:visited {
   color: white;
 }
-
 header a {
   text-decoration: underline;
-  color: white; }
-
+  color: white;
+}
 header img {
   float: left;
   width: 300px;
-	height: 300px;
+  height: 300px;
 }
-
 header li {
   display: inline;
 }
-
 header h1 {
   font-size: 3em;
   font-family: monospace;
   padding-left: 40%;
 }
-
 .accueil {
   margin-left: 5%;
 }
-
 .terminal {
   margin-left: 5%;
 }
-
 .atom {
   margin-left: 5%;
 }
-
 .ubuntu {
   margin-left: 5%;
 }
-
 .git {
   margin-left: 5%;
 }
-
 article h1 {
   text-align: center;
   font-family: monospace;
   margin-top: 1.5em;
   padding-top: 1em;
 }
-
 article p {
   line-height: 10em;
   text-align: center;
 }
-
 article a:visited {
-  color:black;
+  color: black;
 }
-
 .articleterminal {
-background-color: rgb(38, 116, 95);
+  background-color: rgb(38, 116, 95);
 }
-
 .articleatom {
-background-color: rgb(116, 121, 42);
+  background-color: rgb(116, 121, 42);
 }
-
 .articleubuntu {
-background-color: rgb(41, 96, 131);
+  background-color: rgb(41, 96, 131);
 }
-
 .articlegit {
   background-color: rgb(153, 42, 42);
 }
-
 footer {
   text-align: center;
   font-size: 2em;
   text-decoration: underline;
+}
+
+
+
+/*Mobile-friendly*/
+
+@media (max-width: 1024px) {
+
+  header {
+    background-color: black;
+    color: white;
+    height: 6.3em;
+  }
+  header a:visited {
+    color: white;
+  }
+  header a {
+    /*text-decoration: underline;
+    color: white;*/
+    display:none;
+  }
+  header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+  }
+  header li {
+    display: inline;
+  }
+  header h1 {
+    font-size: 3em;
+    font-family: monospace;
+    padding-left: 40%;
+  }
+  .accueil {
+    margin-left: 5%;
+  }
+  .terminal {
+    margin-left: 5%;
+  }
+  .atom {
+    margin-left: 5%;
+  }
+  .ubuntu {
+    margin-left: 5%;
+  }
+  .git {
+    margin-left: 5%;
+  }
+  article h1 {
+    text-align: center;
+    font-family: monospace;
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+  article p {
+    line-height: 1.5em;
+    text-align: center;
+  }
+  article a:visited {
+    color: black;
+  }
+  .articleterminal {
+    margin-top: 0em;
+    background-color: rgb(38, 116, 95);
+  }
+  .articleatom {
+    background-color: rgb(116, 121, 42);
+  }
+  .articleubuntu {
+    background-color: rgb(41, 96, 131);
+  }
+  .articlegit {
+    background-color: rgb(153, 42, 42);
+  }
+  footer {
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration: underline;
+  }
+
 }
